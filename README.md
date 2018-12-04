@@ -78,6 +78,7 @@ learn.fit_one_cycle(2, slice(1e-3/(2.6**4),1e-3))
 ```
 At the beginning of the training in the notebook, I put a markdown that shows the results of training using a constant learning rate for 12 epochs straight. You can see that that result is about the same as what we now get by using the techniques described above in only 5 epochs.  
 
+Also note that our training loss is still pretty high compared to our validation loss. I ran out of time/money for my Tesla P100 :( but you can still continue to train until training loss is close to validation loss. Happy training!!
 
 ## Reference
 [1] [Fastai Course](https://course.fast.ai) & [Fastai Docs](https://docs.fast.ai)
